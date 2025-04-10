@@ -31,6 +31,7 @@
 /* GLOBAL VARS */
 FILE		*logfp;
 struct stat	elfstatinfo;
+int 		PAGESIZE;
 unsigned int	mode = 0;   // Metadata to fuzz (parameters)
 unsigned int	orcn = 0;   // OrcN inside the for() loop. fuzz_* modules will use it through different loops
 unsigned int	n = 5000;   // Default for option -n
